@@ -1,0 +1,21 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Midi Stick.PrjPCB]
+   Generated File[Midi Stick.GTO]
+   Generated File[Midi Stick.GTP]
+   Generated File[Midi Stick.GTS]
+   Generated File[Midi Stick.GTL]
+   Generated File[Midi Stick.GBL]
+   Generated File[Midi Stick.GBS]
+   Generated File[Midi Stick.GBP]
+   Generated File[Midi Stick.GBO]
+   Generated File[Midi Stick.GM8]
+   Generated File[Midi Stick.RUL]
+   Generated File[Midi Stick.EXTREP]
+   Generated File[Midi Stick.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 03:05:11 On 06.08.2020

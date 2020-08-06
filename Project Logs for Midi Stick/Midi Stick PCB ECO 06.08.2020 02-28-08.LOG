@@ -1,0 +1,9 @@
+Added Component: Designator=D1(HFBR-1414MZ)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "516-2038-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V Pin=D1-A
+Added Pin To Net: NetName=+5V Pin=D1-A
+Added Pin To Net: NetName=NetD1_C Pin=D1-C
+Added Pin To Net: NetName=NetD1_C Pin=D1-C
+Added Member To Class: ClassName=Midi Stick Member=Component D1 HFBR-141X

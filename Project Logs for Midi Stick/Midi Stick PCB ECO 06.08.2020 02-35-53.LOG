@@ -1,0 +1,17 @@
+Change Component Comment : Designator=R1 Old Comment=47Ohm or 150Ohm New Comment=47Ohm
+Change Component Comment : Designator=R9 Old Comment=47Ohm or 150Ohm New Comment=150Ohm
+Added Component: Designator=D1(HFBR-1414MZ)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "516-2038-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V Pin=D1-A
+Added Pin To Net: NetName=+5V Pin=D1-A
+Added Pin To Net: NetName=NetQ1_D Pin=R9-1
+Added Pin To Net: NetName=NetD1_CE Pin=D1-CE
+Added Pin To Net: NetName=NetD1_CE Pin=R9-2
+Added Net: Name=NetD1_CE
+Added Pin To Net: NetName=NetD1_CH Pin=D1-CH
+Added Pin To Net: NetName=NetD1_CH Pin=R1-2
+Added Net: Name=NetD1_CH
+Added Member To Class: ClassName=Midi Stick Member=Component D1 HFBR-141X
+Added Member To Class: ClassName=Midi Stick Member=Component R9 150Ohm

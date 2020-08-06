@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: F:\OneDrive\Altium\Projects\Midi stick\Git\MidiStick\Midi Stick.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=midi stick-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=midi stick-slotholes.txt|DrillLayers=gtl,gbl

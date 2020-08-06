@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Midi Stick.PcbDoc   06.08.2020  02:55:45
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Midi Stick-RoundHoles.TXT
+ASCII SlotHoles File : Midi Stick-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      16mil (0.4mm)                                             Round             8         PTH        0.00inch (0.00mm)
+T2      20mil (0.5mm)                                             Round             78        PTH        0.00inch (0.00mm)
+T3      24mil (0.6mm)                                             Round             4         PTH        0.00inch (0.00mm)
+T4      28mil (0.711mm)                                           Round             1         PTH        0.00inch (0.00mm)
+T5      32mil (0.8mm)                                             Round             4         PTH        0.00inch (0.00mm)
+T6      35mil (0.9mm)                                             Round             2         PTH        0.00inch (0.00mm)
+T7      39mil (1mm)                                               Round             4         PTH        0.00inch (0.00mm)
+T8      39mil (1mm)                                               Slot              2         PTH        0.00inch (0.00mm)
+T9      47mil (1.2mm)                                             Round             2         PTH        0.00inch (0.00mm)
+T10     64mil (1.63mm)                                            Round             2         PTH        0.00inch (0.00mm)
+T11     122mil (3.1mm)                                            Round             1         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              108
+
+Total Processing Time (hh:mm:ss) : 00:00:00
