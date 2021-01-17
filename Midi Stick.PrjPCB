@@ -86,7 +86,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=LOBOCPPI
 
 [Document4]
 DocumentPath=..\..\..\..\Libraries\stdLib.SCHLIB
@@ -103,7 +103,92 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=VTEERBKT
+
+[Document5]
+DocumentPath=Midi Stick.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
 DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Midi Stick\Design Rule Check - Midi Stick.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Midi Stick\Midi Stick-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Midi Stick\Midi Stick-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Midi Stick\Midi Stick.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Midi Stick\Midi Stick.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Midi Stick\Midi Stick.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for Midi Stick\Midi Stick.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Midi Stick\Midi Stick.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for Midi Stick\Midi Stick.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Midi Stick\Midi Stick.GM8
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for Midi Stick\Midi Stick.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Midi Stick\Midi Stick.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for Midi Stick\Midi Stick.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Midi Stick\Midi Stick.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for Midi Stick\Midi Stick.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Midi Stick\Midi Stick.REP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for Midi Stick\Midi Stick.RUL
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -118,7 +203,7 @@ ConfigurationType=Source
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=NPI8393CE (HP LaserJet Professional P1102w)
+TargetPrinter=Canon iP7200 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -220,22 +305,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=XSpice Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=NPI8393CE (HP LaserJet Professional P1102w)
+TargetPrinter=Canon iP7200 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -306,7 +381,7 @@ PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=NPI8393CE (HP LaserJet Professional P1102w)
+TargetPrinter=Canon iP7200 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -328,22 +403,22 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=NPI8393CE (HP LaserJet Professional P1102w)
+TargetPrinter=Canon iP7200 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Board Stack Report
-OutputName1=Report Board Stack
+OutputType1=CompositeDrill
+OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=CompositeDrill
-OutputName2=Composite Drill Drawing
+OutputType2=Drill
+OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Drill
-OutputName3=Drill Drawing/Guides
+OutputType3=Board Stack Report
+OutputName3=Report Board Stack
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
@@ -354,53 +429,61 @@ OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Gerber
-OutputName5=Gerber Files
+OutputType5=Gerber X2
+OutputName5=Gerber X2 Files
 OutputDocumentPath5=
-OutputVariantName5=[No Variations]
+OutputVariantName5=
 OutputDefault5=0
-OutputType6=Gerber X2
-OutputName6=Gerber X2 Files
+OutputType6=ODB
+OutputName6=ODB++ Files
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=IPC2581
-OutputName7=IPC-2581 Files
+OutputType7=Mask
+OutputName7=Solder/Paste Mask Prints
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=Mask
-OutputName8=Solder/Paste Mask Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=NC Drill
+OutputName8=NC Drill Files
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=NC Drill
-OutputName9=NC Drill Files
+Configuration8_Name1=ForceUpdateSettings
+Configuration8_Item1=False
+Configuration8_Name2=OutputConfigurationParameter1
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
+OutputType9=IPC2581
+OutputName9=IPC-2581 Files
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=ODB
-OutputName10=ODB++ Files
+OutputType10=Plane
+OutputName10=Power-Plane Prints
 OutputDocumentPath10=
-OutputVariantName10=[No Variations]
+OutputVariantName10=
 OutputDefault10=0
-OutputType11=Plane
-OutputName11=Power-Plane Prints
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=Test Points
+OutputName11=Test Point Report
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Test Points
-OutputName12=Test Point Report
+OutputType12=Gerber
+OutputName12=Gerber Files
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
+Configuration12_Name1=ForceUpdateSettings
+Configuration12_Item1=False
+Configuration12_Name2=OutputConfigurationParameter1
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908296~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=NPI8393CE (HP LaserJet Professional P1102w)
+TargetPrinter=Canon iP7200 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -437,7 +520,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=NPI8393CE (HP LaserJet Professional P1102w)
+TargetPrinter=Canon iP7200 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -617,7 +700,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=NPI8393CE (HP LaserJet Professional P1102w)
+TargetPrinter=Canon iP7200 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Server's components states check
@@ -652,11 +735,16 @@ OutputName6=Footprint Comparison Report
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
+OutputType7=BOM_Violations
+OutputName7=BOM Checks Report
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
 
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=NPI8393CE (HP LaserJet Professional P1102w)
+TargetPrinter=Canon iP7200 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -707,7 +795,7 @@ OutputDefault9=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=NPI8393CE (HP LaserJet Professional P1102w)
+TargetPrinter=Canon iP7200 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -832,6 +920,7 @@ Type113=1
 Type114=1
 Type115=1
 Type116=1
+Type117=1
 
 [Difference Levels]
 Type1=1
@@ -899,6 +988,7 @@ Type62=1
 Type63=1
 Type64=1
 Type65=1
+Type66=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1067,6 +1157,84 @@ NetClassSeparateForBusSections=0
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Miscellaneous Connectors.IntLib
+ComponentDesignItemID0=Header 2
+ComponentSymbolReference0=Header 2
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Miscellaneous Connectors.IntLib
+ComponentDesignItemID1=Header 5
+ComponentSymbolReference1=Header 5
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=stdLib.SCHLIB
+ComponentDesignItemID2=Cap
+ComponentSymbolReference2=Cap
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=stdLib.SCHLIB
+ComponentDesignItemID3=dual TVS Diode
+ComponentSymbolReference3=dual TVS Diode
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=stdLib.SCHLIB
+ComponentDesignItemID4=HFBR-141X
+ComponentSymbolReference4=HFBR-141X
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=stdLib.SCHLIB
+ComponentDesignItemID5=LED
+ComponentSymbolReference5=LED
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=stdLib.SCHLIB
+ComponentDesignItemID6=Mosfet N
+ComponentSymbolReference6=Mosfet N
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=stdLib.SCHLIB
+ComponentDesignItemID7=PIC32MX2xxFxxxB
+ComponentSymbolReference7=PIC32MX2xxFxxxB
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=stdLib.SCHLIB
+ComponentDesignItemID8=Quarz crystal
+ComponentSymbolReference8=Quarz crystal
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=stdLib.SCHLIB
+ComponentDesignItemID9=Resistor
+ComponentSymbolReference9=Resistor
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=stdLib.SCHLIB
+ComponentDesignItemID10=TVS Diode
+ComponentSymbolReference10=TVS Diode
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=stdLib.SCHLIB
+ComponentDesignItemID11=USB 2.0 Type A Plug
+ComponentSymbolReference11=USB 2.0 Type A Plug
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=stdLib.SCHLIB
+ComponentDesignItemID12=VReg
+ComponentSymbolReference12=VReg
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1080,6 +1248,246 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=Component Kind
+ParameterUpdate1=1
+ParameterName2=Description
+ParameterUpdate2=1
+ParameterName3=LatestRevisionDate
+ParameterUpdate3=1
+ParameterName4=LatestRevisionNote
+ParameterUpdate4=1
+ParameterName5=Library Reference
+ParameterUpdate5=1
+ParameterName6=Publisher
+ParameterUpdate6=1
+ParameterName7=Supplier 1
+ParameterUpdate7=1
+ParameterName8=Supplier 10
+ParameterUpdate8=1
+ParameterName9=Supplier 11
+ParameterUpdate9=1
+ParameterName10=Supplier 12
+ParameterUpdate10=1
+ParameterName11=Supplier 13
+ParameterUpdate11=1
+ParameterName12=Supplier 14
+ParameterUpdate12=1
+ParameterName13=Supplier 15
+ParameterUpdate13=1
+ParameterName14=Supplier 16
+ParameterUpdate14=1
+ParameterName15=Supplier 17
+ParameterUpdate15=1
+ParameterName16=Supplier 18
+ParameterUpdate16=1
+ParameterName17=Supplier 19
+ParameterUpdate17=1
+ParameterName18=Supplier 2
+ParameterUpdate18=1
+ParameterName19=Supplier 20
+ParameterUpdate19=1
+ParameterName20=Supplier 21
+ParameterUpdate20=1
+ParameterName21=Supplier 22
+ParameterUpdate21=1
+ParameterName22=Supplier 23
+ParameterUpdate22=1
+ParameterName23=Supplier 24
+ParameterUpdate23=1
+ParameterName24=Supplier 25
+ParameterUpdate24=1
+ParameterName25=Supplier 26
+ParameterUpdate25=1
+ParameterName26=Supplier 27
+ParameterUpdate26=1
+ParameterName27=Supplier 28
+ParameterUpdate27=1
+ParameterName28=Supplier 29
+ParameterUpdate28=1
+ParameterName29=Supplier 3
+ParameterUpdate29=1
+ParameterName30=Supplier 30
+ParameterUpdate30=1
+ParameterName31=Supplier 31
+ParameterUpdate31=1
+ParameterName32=Supplier 32
+ParameterUpdate32=1
+ParameterName33=Supplier 33
+ParameterUpdate33=1
+ParameterName34=Supplier 34
+ParameterUpdate34=1
+ParameterName35=Supplier 35
+ParameterUpdate35=1
+ParameterName36=Supplier 36
+ParameterUpdate36=1
+ParameterName37=Supplier 37
+ParameterUpdate37=1
+ParameterName38=Supplier 38
+ParameterUpdate38=1
+ParameterName39=Supplier 39
+ParameterUpdate39=1
+ParameterName40=Supplier 4
+ParameterUpdate40=1
+ParameterName41=Supplier 40
+ParameterUpdate41=1
+ParameterName42=Supplier 41
+ParameterUpdate42=1
+ParameterName43=Supplier 42
+ParameterUpdate43=1
+ParameterName44=Supplier 5
+ParameterUpdate44=1
+ParameterName45=Supplier 6
+ParameterUpdate45=1
+ParameterName46=Supplier 7
+ParameterUpdate46=1
+ParameterName47=Supplier 8
+ParameterUpdate47=1
+ParameterName48=Supplier 9
+ParameterUpdate48=1
+ParameterName49=Supplier Part Number 1
+ParameterUpdate49=1
+ParameterName50=Supplier Part Number 10
+ParameterUpdate50=1
+ParameterName51=Supplier Part Number 11
+ParameterUpdate51=1
+ParameterName52=Supplier Part Number 12
+ParameterUpdate52=1
+ParameterName53=Supplier Part Number 13
+ParameterUpdate53=1
+ParameterName54=Supplier Part Number 14
+ParameterUpdate54=1
+ParameterName55=Supplier Part Number 15
+ParameterUpdate55=1
+ParameterName56=Supplier Part Number 16
+ParameterUpdate56=1
+ParameterName57=Supplier Part Number 17
+ParameterUpdate57=1
+ParameterName58=Supplier Part Number 18
+ParameterUpdate58=1
+ParameterName59=Supplier Part Number 19
+ParameterUpdate59=1
+ParameterName60=Supplier Part Number 2
+ParameterUpdate60=1
+ParameterName61=Supplier Part Number 20
+ParameterUpdate61=1
+ParameterName62=Supplier Part Number 21
+ParameterUpdate62=1
+ParameterName63=Supplier Part Number 22
+ParameterUpdate63=1
+ParameterName64=Supplier Part Number 23
+ParameterUpdate64=1
+ParameterName65=Supplier Part Number 24
+ParameterUpdate65=1
+ParameterName66=Supplier Part Number 25
+ParameterUpdate66=1
+ParameterName67=Supplier Part Number 26
+ParameterUpdate67=1
+ParameterName68=Supplier Part Number 27
+ParameterUpdate68=1
+ParameterName69=Supplier Part Number 28
+ParameterUpdate69=1
+ParameterName70=Supplier Part Number 29
+ParameterUpdate70=1
+ParameterName71=Supplier Part Number 3
+ParameterUpdate71=1
+ParameterName72=Supplier Part Number 30
+ParameterUpdate72=1
+ParameterName73=Supplier Part Number 31
+ParameterUpdate73=1
+ParameterName74=Supplier Part Number 32
+ParameterUpdate74=1
+ParameterName75=Supplier Part Number 33
+ParameterUpdate75=1
+ParameterName76=Supplier Part Number 34
+ParameterUpdate76=1
+ParameterName77=Supplier Part Number 35
+ParameterUpdate77=1
+ParameterName78=Supplier Part Number 36
+ParameterUpdate78=1
+ParameterName79=Supplier Part Number 37
+ParameterUpdate79=1
+ParameterName80=Supplier Part Number 38
+ParameterUpdate80=1
+ParameterName81=Supplier Part Number 39
+ParameterUpdate81=1
+ParameterName82=Supplier Part Number 4
+ParameterUpdate82=1
+ParameterName83=Supplier Part Number 40
+ParameterUpdate83=1
+ParameterName84=Supplier Part Number 41
+ParameterUpdate84=1
+ParameterName85=Supplier Part Number 42
+ParameterUpdate85=1
+ParameterName86=Supplier Part Number 5
+ParameterUpdate86=1
+ParameterName87=Supplier Part Number 6
+ParameterUpdate87=1
+ParameterName88=Supplier Part Number 7
+ParameterUpdate88=1
+ParameterName89=Supplier Part Number 8
+ParameterUpdate89=1
+ParameterName90=Supplier Part Number 9
+ParameterUpdate90=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=0402
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=0603
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=0805
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=1206
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=2512
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=ECS-3225MV Oscillator
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=HDR1X2
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=HDR1X5
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=HFBR-1414MZ
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=LFPAK56
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=PG-TDSON-8
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=SOD523
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=sot 23
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=SOT223
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=TO-263 D2PAK
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=TSSOP28_Wide
+ModelUpdate15=1
+ModelType16=PCBLIB
+ModelName16=USB 2.0 TYPE A PLUG
+ModelUpdate16=1
+ModelTypeGroup1=SI
+ModelTypeUpdate1=1
+ModelType17=SI
+ModelName17=Connector
+ModelUpdate17=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
