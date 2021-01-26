@@ -1,5 +1,5 @@
 # MidiStick
- This is a USB based midid interrupter. More info about it is in the [firmware repo](https://github.com/TMaxElectronics/MidiStick_Firmware)
+ This is a USB based midi interrupter. More info about it is in the [firmware repo](https://github.com/TMaxElectronics/MidiStick_Firmware)
  
 # Licence
    the MidiStick project is free: you can redistribute it and/or modify
